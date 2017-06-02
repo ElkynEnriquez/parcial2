@@ -1,5 +1,5 @@
-<form class="row light-blue-text text-accent-3 center-align blue-grey darken-2" id="formBuscar" name="formBuscar" method="post" action="">
-	<div class="row">			
+<form class="row light-blue-text text-accent-3 center-align blue-grey darken-3" id="formBuscar" name="formBuscar" method="post" action="">
+	<div class="row">		
 		<div class="col s1 hide-on-small-only"></div><div class="col s11"><h3 class="light-blue-text text-darken-2">Buscar estudiante</h3></div>
 	</div>
 	<input type="hidden" name="pag" value="2">
@@ -71,11 +71,11 @@
 		  	<input name="cod_jornada" type="radio" id="jornada2" value="T" />
 		  	<label for="jornada2" class="light-blue-text text-accent-2">Tarde</label>
 		  	<input name="cod_jornada" type="radio" id="jornada3" value="N" />
-		  	<label for="jornada3" class="light-blue-text text-accent-2">Noche *Lorenzo</label>
+		  	<label for="jornada3" class="light-blue-text text-accent-2">Nocturna</label>
 		  	</p>
 		</div>
-		<div class="col s12">
-			<button class="btn-floating right light-blue darken-4 btn-large" type="submit" name="action">
+		<div class="col s11">
+			<button class="btn-floating right light-blue accent-4 btn-large tooltipped" data-position="left" data-delay="50" data-tooltip="Buscar estudiante" type="submit" name="action">
 				<i class="material-icons">search</i></button>
 		</div>
 	</div>
